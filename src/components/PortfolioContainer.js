@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import NavTabs from './NavTabs';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
-// import Projects from './pages/Projects';
+import Projects from './pages/Projects';
 // import Resume from './pages/Resume';
 
 export default function PortfolioContainer() {
@@ -16,9 +16,9 @@ export default function PortfolioContainer() {
     if (currentPage === 'Contact') {
       return <Contact />;
     }
-    // if (currentPage === 'Projects') {
-    //   return <Projects />;
-    // }
+    if (currentPage === 'Projects') {
+      return <Projects />;
+    }
     // return <Resume />;
   };
 
@@ -26,9 +26,9 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      {/* // TODO: Add a comment describing what we are passing as props */}
+
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* // TODO: Add a comment explaining what is happening on the following line */}
+
       {renderPage()}
     </div>
   );
