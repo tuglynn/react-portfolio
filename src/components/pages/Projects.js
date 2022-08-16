@@ -6,7 +6,6 @@ import styles from '../../styles/styles';
 
 
 
-
 export default function Projects() {
     return (<div id='workbox'>
         <img src={rllrdex} alt='rllrdex' className='main-project'/>

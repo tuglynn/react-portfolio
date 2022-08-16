@@ -33,15 +33,6 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           Contact Me
         </a>
-        <a
-          href="#resume"
-
-          onClick={() => handlePageChange('Resume')}
-          // style={styles.button}
-          className='nav-item'
-        >
-          Resume
-        </a>
     </nav>
     </header>
   );
