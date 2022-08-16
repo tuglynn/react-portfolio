@@ -3,6 +3,7 @@ import styles from '../styles/styles'
 
 
 
+
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <header>

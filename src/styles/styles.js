@@ -27,6 +27,12 @@ const styles = {
     hero: {
       width: '100%',
       height: '500px'
+    },
+    project: {
+        height: '200px',
+        width: '200px',
+        margin: '5px',
+        border: '2px solid #8F6A28'
     }
   }
 

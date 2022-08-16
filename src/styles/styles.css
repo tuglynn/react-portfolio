@@ -125,7 +125,7 @@ section p {
 
 /* Set the flex-basis to a low number so that I could have two smaller boxes under the big box. */
 
-.work {
+div img {
     height: 200px;
     margin: 5px;
     border: 2px solid var(--brown);
@@ -137,7 +137,7 @@ section p {
 }
 
 .project2 {
-    background-image: url(../images/rllr-dex.png);
+    background-image: url(../images/rllrdex.png);
     background-position: center;
     background-size: cover;
 }
@@ -148,7 +148,7 @@ section p {
     background-size: cover;
 }
 
-.work:hover {
+div img:hover {
     transition: box-shadow .7s ease-out;
     box-shadow: 5px 5px 15px 5px #797979;
     cursor: pointer;
@@ -165,7 +165,7 @@ section p {
 /* I set this flex-basis to the minimum size of the screen before my media query break so that this large box would stay the full size of the screen until that break */
 
 #workbox .main-project {
-    background-image: url(../images/burauzanoakachan.jpg);
+    background-image: url(../images/burauza.jpg);
     background-position: center;
     background-size: cover;
     flex-grow: 1;
