@@ -19,13 +19,15 @@ const styles = {
     },
     container: {
         margin: '1rem',
+        padding: '1em',
         backgroundColor: '#cecece',
     },
     font: {
       fontFamily: 'raleway'
     },
     hero: {
-      width: '100%',
+      alignContent: 'center',
+      width: '90%',
       height: '500px'
     },
     project: {

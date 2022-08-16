@@ -8,7 +8,6 @@ export default function Home() {
     return (
         <div 
         style={styles.container}>
-            <img src={hero} alt='hero' style={styles.hero}/>
         <p style={styles.font}>I am a piano teacher and husky wrangler. I live in San Diego California with my
             wife, Cecee, our four dogs, and a tortoise named Frank.
         </p>
@@ -22,6 +21,7 @@ export default function Home() {
             hope
             to merge both coding and music to continue both my loves.
         </p>
+            <img src={hero} alt='hero' style={styles.hero}/>
 
     </div>
     );

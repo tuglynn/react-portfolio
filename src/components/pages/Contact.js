@@ -13,6 +13,7 @@ export default function Contact() {
     return (
 <div 
 className="address"
+style={styles.container}
     >
         <h2>
         Contact Me
