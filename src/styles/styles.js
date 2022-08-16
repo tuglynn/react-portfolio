@@ -21,6 +21,9 @@ const styles = {
         margin: '1rem',
         padding: '1em',
         backgroundColor: '#cecece',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center'
     },
     font: {
       fontFamily: 'raleway'

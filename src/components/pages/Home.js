@@ -22,7 +22,6 @@ export default function Home() {
             to merge both coding and music to continue both my loves.
         </p>
             <img src={hero} alt='hero' style={styles.hero}/>
-
     </div>
     );
 }

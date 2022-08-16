@@ -119,6 +119,7 @@ section p {
 
 
 #workbox {
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -126,7 +127,7 @@ section p {
 
 /* Set the flex-basis to a low number so that I could have two smaller boxes under the big box. */
 
-div img {
+section img {
     height: 200px;
     margin: 1.5rem;
     border: 2px solid var(--brown);
@@ -137,19 +138,7 @@ div img {
     flex-basis: min(380px);
 }
 
-.project2 {
-    background-image: url(../images/rllrdex.png);
-    background-position: center;
-    background-size: cover;
-}
-
-.project3 {
-    background-image: url(../images/express-note-taker.png);
-    background-position: center;
-    background-size: cover;
-}
-
-div img:hover {
+section img:hover {
     transition: box-shadow .7s ease-out;
     box-shadow: 5px 5px 15px 5px #797979;
     cursor: pointer;

@@ -7,11 +7,11 @@ import styles from '../../styles/styles';
 
 
 export default function Projects() {
-    return (<div id='workbox'>
+    return (<section id='workbox'>
         <img src={rllrdex} alt='rllrdex' className='main-project'/>
         <img src={burauza} alt='burauza'/>
         <img src={weather} alt='weather'/>
 
-    </div>
+    </section>
     );
 }
