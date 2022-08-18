@@ -2,7 +2,7 @@ import React from 'react';
 import burauza from '../../images/burauza.jpg';
 import rllrdex from '../../images/rllrdex.png';
 import weather from '../../images/weatherdash.jpg';
-import styles from '../../styles/styles';
+import '../../styles/styles';
 
 
 
