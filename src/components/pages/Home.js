@@ -1,6 +1,6 @@
 import React from 'react';
-import styles from '../../styles/styles'
-import hero from '../../images/kingdream.jpg'
+import styles from '../../styles/styles';
+import hero from '../../images/kingdream.jpg';
 
 
 

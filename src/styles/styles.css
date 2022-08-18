@@ -1,14 +1,3 @@
-:root {
-    --white: #f0ebe9;
-    --dark: #000022;
-    --grey: #6A6262;
-    --green: #425738;
-    --brown: #8F6A28;
-    --cece: #cecece;
-    --space: .5px;
-}
-
-
 header {
     font-family: 'Raleway', sans-serif;
     display: flex;

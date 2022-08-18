@@ -12,7 +12,6 @@ function NavTabs({ currentPage, handlePageChange }) {
         <a
           href="#home"
           onClick={() => handlePageChange('Home')}
-          // style={styles.button}
           className='nav-item'
         >
           Home
@@ -20,7 +19,6 @@ function NavTabs({ currentPage, handlePageChange }) {
         <a
           href="#projects"
           onClick={() => handlePageChange('Projects')}
-          // style={styles.button}
           className='nav-item'
         >
           Projects
@@ -28,7 +26,6 @@ function NavTabs({ currentPage, handlePageChange }) {
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
-          // style={styles.button}
           className='nav-item'
         >
           Contact Me

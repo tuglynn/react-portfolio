@@ -1,4 +1,3 @@
-import React from 'react'
 import '@fontsource/raleway'
 
 const styles = {
