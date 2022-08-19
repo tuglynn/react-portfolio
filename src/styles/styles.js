@@ -8,7 +8,7 @@ const styles = {
       fontFamily: 'raleway'
     },
     header: {
-      backgroundColor: '#6A6262',
+      backgroundColor: '#563635',
     },
     button: {
       color: '#f0ebe9',

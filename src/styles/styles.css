@@ -3,7 +3,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: var(--grey);
+    background-color: #563635;
 }
 
 /* To allow the header and nav to be spaced out to either end, I used a 50% width on both elements and set the parent to flex.
@@ -27,9 +27,10 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: var(--white);
+    color: #d3bdb8;
     letter-spacing: 1px;
     padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 .nav-item:hover {
@@ -40,8 +41,13 @@ nav a {
 
 }
 
+.select {
+    color: #f4f4f4;
+
+}
+
 body {
-    background-color: var(--cece);
+    background-color: #cecece;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -127,12 +133,6 @@ section img {
     flex-basis: min(380px);
 }
 
-section img:hover {
-    transition: box-shadow .7s ease-out;
-    box-shadow: 5px 5px 15px 5px #797979;
-    cursor: pointer;
-}
-
 .work h2 {
     color: var(--white);
     background-color: #6A6262;
@@ -144,7 +144,6 @@ section img:hover {
 /* I set this flex-basis to the minimum size of the screen before my media query break so that this large box would stay the full size of the screen until that break */
 
 #workbox .main-project {
-    background-image: url(../images/burauza.jpg);
     background-position: center;
     background-size: cover;
     flex-grow: 1;

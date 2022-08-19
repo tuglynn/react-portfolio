@@ -1,16 +1,19 @@
 import React from 'react';
-import burauza from '../../images/burauza.jpg';
-import rllrdex from '../../images/rllrdex.png';
-import weather from '../../images/weatherdash.jpg';
 import '../../styles/styles';
+// import styles from '../../styles/styles';
+import Card from './Card';
+import projectData from '../utils/projectData';
 
 
 
 export default function Projects() {
+
+
     return (<section id='workbox'>
-        <img src={rllrdex} alt='rllrdex' className='main-project'/>
+        {/* <img src={rllrdex} alt='rllrdex' className='main-project' style={styles.p1}/>
         <img src={burauza} alt='burauza'/>
-        <img src={weather} alt='weather'/>
+        <img src={weather} alt='weather'/> */}
+        <Card projects={projectData}/>
 
     </section>
     );
