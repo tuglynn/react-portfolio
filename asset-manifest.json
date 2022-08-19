@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.ad4018af.css",
-    "main.js": "/react-portfolio/static/js/main.3d838e2d.js",
+    "main.css": "/react-portfolio/static/css/main.ef65e3e1.css",
+    "main.js": "/react-portfolio/static/js/main.1ab3d5ca.js",
     "static/media/rllrdex.png": "/react-portfolio/static/media/rllrdex.e43d0136fef3c3794a51.png",
     "static/media/weatherdash.jpg": "/react-portfolio/static/media/weatherdash.c91f4b3189a54901b41d.jpg",
+    "static/media/express-note-taker.png": "/react-portfolio/static/media/express-note-taker.a38cbde6823c380dee11.png",
     "static/media/kingdream.jpg": "/react-portfolio/static/media/kingdream.10ea41f06a088f07b5fa.jpg",
+    "static/media/pianoquiz.jpg": "/react-portfolio/static/media/pianoquiz.69ecddc35663a955d016.jpg",
     "static/media/raleway-all-400-normal.woff": "/react-portfolio/static/media/raleway-all-400-normal.98e7ff86f2b9a46e19cc.woff",
     "static/media/burauza.jpg": "/react-portfolio/static/media/burauza.abf06a9fb79d54c0f23b.jpg",
+    "static/media/jate.png": "/react-portfolio/static/media/jate.660ed1206a3bffbe08f7.png",
     "static/media/resume.pdf": "/react-portfolio/static/media/resume.a242318249cd418e569e.pdf",
     "static/media/raleway-latin-400-normal.woff2": "/react-portfolio/static/media/raleway-latin-400-normal.0bdecdd83e78d540c297.woff2",
     "static/media/raleway-latin-ext-400-normal.woff2": "/react-portfolio/static/media/raleway-latin-ext-400-normal.e2c3693083a044bed680.woff2",
@@ -14,11 +17,11 @@
     "static/media/raleway-cyrillic-400-normal.woff2": "/react-portfolio/static/media/raleway-cyrillic-400-normal.f7d0cc4bf9cf8da4f023.woff2",
     "static/media/raleway-vietnamese-400-normal.woff2": "/react-portfolio/static/media/raleway-vietnamese-400-normal.bb6f51e1b67ec8802d57.woff2",
     "index.html": "/react-portfolio/index.html",
-    "main.ad4018af.css.map": "/react-portfolio/static/css/main.ad4018af.css.map",
-    "main.3d838e2d.js.map": "/react-portfolio/static/js/main.3d838e2d.js.map"
+    "main.ef65e3e1.css.map": "/react-portfolio/static/css/main.ef65e3e1.css.map",
+    "main.1ab3d5ca.js.map": "/react-portfolio/static/js/main.1ab3d5ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad4018af.css",
-    "static/js/main.3d838e2d.js"
+    "static/css/main.ef65e3e1.css",
+    "static/js/main.1ab3d5ca.js"
   ]
 }
