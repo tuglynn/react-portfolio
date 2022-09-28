@@ -3,6 +3,7 @@ import NavTabs from './NavTabs';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
+import Foot from './Footer';
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
 
@@ -26,6 +27,7 @@ export default function PortfolioContainer() {
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
 
       {renderPage()}
+      <Foot />
     </div>
   );
 }

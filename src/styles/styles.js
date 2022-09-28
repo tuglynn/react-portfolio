@@ -29,14 +29,34 @@ const styles = {
     },
     hero: {
       alignContent: 'center',
-      width: '90%',
-      height: '500px'
+      width: 'auto',
+      height: 'auto'
     },
     project: {
         height: '200px',
         width: '200px',
         margin: '5px',
         border: '2px solid #8F6A28'
+    },
+    h3: {
+      fontSize: '1rem'
+    },
+    icons: {
+      display: 'flex',
+      justifyContent: 'space-evenly',
+      paddingBottom: '2em'
+    },
+    home: {
+      margin: '1rem',
+      padding: '1em',
+      backgroundColor: '#cecece',
+      display: 'flex',
+      flexDirection: 'row',
+      alignItems: 'center',
+      justifyContent: 'space-between'
+    },
+    hover: {
+      cursor: 'pointer'
     }
   }
 

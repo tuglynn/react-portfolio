@@ -4,15 +4,18 @@ import '@fontsource/raleway'
 
 const style = {
     contain: {
-        display: 'flex',
-        justifyContent: 'space-between',
-        flexWrap: 'wrap'
+        margin: 'auto',
+        display: 'grid',
+        gridTemplateColumns: 'auto auto auto',
+        padding: '1em',
+        columnGap: '1.5rem',
+        rowGap: '1.5rem'
     },
     card: {
-        margin: '1rem',
         padding: '1em',
         backgroundColor: '#D8D4D5',
-        fontFamily: 'raleway'
+        fontFamily: 'raleway',
+        border: '1px solid #cecece'
     },
     links: {
         textDecoration: 'none',
