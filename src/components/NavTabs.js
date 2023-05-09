@@ -7,24 +7,24 @@ import styles from '../styles/styles'
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <header>
-      <h1 style={styles.h1Text}>Patrick Glynn</h1>
+      <h1 style={styles.h1Text}>Patrick TuGlynn</h1>
     <nav style={styles.header}>
         <a
-          href="#home"
+          href="/"
           onClick={() => handlePageChange('Home')}
           className={currentPage === 'Home' ? 'nav-item select' : 'nav-item'}
         >
           Home
         </a>
         <a
-          href="#projects"
+          href="/projects"
           onClick={() => handlePageChange('Projects')}
           className={currentPage === 'Projects' ? 'nav-item select' : 'nav-item'}
         >
           Projects
         </a>
         <a
-          href="#contact"
+          href="/contact"
           onClick={() => handlePageChange('Contact')}
           className={currentPage === 'Contact' ? 'nav-item select' : 'nav-item'}
         >
