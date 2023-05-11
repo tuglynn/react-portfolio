@@ -3,10 +3,9 @@ import styles from '../../styles/styles';
 import hero from '../../images/kingdream.jpg';
 
 
-
 export default function Home() {
     return (
-        <div 
+        <div class="active animate-in-left"
         style={styles.home}>
             <div
             style={styles.container}>

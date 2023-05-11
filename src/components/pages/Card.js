@@ -51,10 +51,10 @@ export default function Card(props) {
                 style={style.links}
                 target="_blank"
                 rel="noopener noreferrer">deployed</a>
-                 <a href={item.git}
-                style={style.links}
-                target="_blank"
-                rel="noopener noreferrer">repo</a>
+                    <a href={item.git}
+                    style={style.links}
+                    target="_blank"
+                    rel="noopener noreferrer">repo</a>
             </div>
                 ))}
         </div>

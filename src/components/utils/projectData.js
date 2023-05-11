@@ -1,25 +1,15 @@
 import react from 'react';
 import burauza from '../../images/burauza.jpg';
-import rllrdex from '../../images/rllrdex.png';
 import weather from '../../images/weatherdash.jpg';
-import jate from '../../images/jate.png';
 import piano from '../../images/pianoquiz.jpg';
-import expressNotes from '../../images/express-note-taker.png';
+import raiseTheBarr from '../../images/raise.png'
 
 
 const projects = [{
-    title: 'Rllrdex',
-    pic: `${rllrdex}`,
-    desc: 'Pokemon Themed social media app',
-    deploy: 'https://project2-rllr.herokuapp.com/',
-    git: 'https://github.com/monacoglynn/Project-2---Rllr'
-},
-{
-    title: 'Jate',
-    pic: `${jate}`,
-    desc: 'A PWA text editor',
-    deploy: 'https://calm-oasis-31944.herokuapp.com/',
-    git: 'https://github.com/monacoglynn/pwa-text-editor'
+    title: 'Raise The Barr',
+    pic: `${raiseTheBarr}`,
+    desc: 'A wordpress website',
+    deploy: 'https://beverlybarr.com'
 },
 {
 title: 'Burauza No Akachan',
@@ -27,13 +17,6 @@ pic: `${burauza}`,
 desc: 'A virtual pet app',
 deploy: 'https://monacoglynn.github.io/gp-mini-pet/',
 git: 'https://github.com/monacoglynn/gp-mini-pet'
-},
-{
-    title: 'Express Note Taker',
-    pic: `${expressNotes}`,
-    desc: 'An express powered note taker app',
-    deploy: 'https://afternoon-castle-95204.herokuapp.com/',
-    git: 'https://github.com/monacoglynn/express-note-taker'
 },
 {
 title: 'Weather Dashboard',
