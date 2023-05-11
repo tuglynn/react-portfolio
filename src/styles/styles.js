@@ -3,7 +3,7 @@ import '@fontsource/raleway'
 const styles = {
     h1Text: {
       margin: '1rem',
-      color: '#000022;',
+      color: '#000022',
       letterSpacing: '2px',
       fontFamily: 'raleway'
     },

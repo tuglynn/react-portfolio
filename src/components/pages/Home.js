@@ -5,7 +5,7 @@ import hero from '../../images/kingdream.jpg';
 
 export default function Home() {
     return (
-        <div class="active animate-in-left"
+        <div className="active animate-in-left"
         style={styles.home}>
             <div
             style={styles.container}>

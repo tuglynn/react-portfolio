@@ -1,12 +1,17 @@
 import React from 'react';
 import  '../../styles/styles.css';
-import resume from '../../assets/docs/resume.pdf';
+const btn = document.querySelector('#submit');
+
+
+const handleFormSubmit = () => {
+    console.log(window.form);
+}
+
 
 
 export default function Contact() {
-    const showResume = () => {
 
-    }
+
 
     return (
 <div >
@@ -16,10 +21,15 @@ export default function Contact() {
     </h2>
     <a href="mailto:pmtgcode@gmail.com?" subject="Questions about code">Email</a>
     </div>
-    <div className="resume">
-        <h3>Resume</h3>
-        <div></div>
-        <iframe src={resume} width="800" height="800" title="resume"/>
+    <div>
+        <form class="contact-form">
+            <label for="name">Name: </label>
+            <input type="text" id="name"></input>
+            <label for="email">Email: </label>
+            <input type="text" id="email"></input>
+            <textarea></textarea>
+            <button id="submit" onClick={handleFormSubmit}>CLICK ME</button>
+        </form>
     </div>
 </div>
     );

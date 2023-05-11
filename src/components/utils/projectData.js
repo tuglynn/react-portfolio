@@ -6,26 +6,30 @@ import raiseTheBarr from '../../images/raise.png'
 
 
 const projects = [{
+    id: 43234123461,
     title: 'Raise The Barr',
     pic: `${raiseTheBarr}`,
     desc: 'A wordpress website',
     deploy: 'https://beverlybarr.com'
 },
 {
-title: 'Burauza No Akachan',
-pic: `${burauza}`,
-desc: 'A virtual pet app',
-deploy: 'https://monacoglynn.github.io/gp-mini-pet/',
-git: 'https://github.com/monacoglynn/gp-mini-pet'
+    id: 55555559873562,
+    title: 'Burauza No Akachan',
+    pic: `${burauza}`,
+    desc: 'A virtual pet app',
+    deploy: 'https://monacoglynn.github.io/gp-mini-pet/',
+    git: 'https://github.com/monacoglynn/gp-mini-pet'
 },
 {
-title: 'Weather Dashboard',
-pic: `${weather}`,
-desc: 'A weather app that shows 5 day forecast',
-deploy: 'https://monacoglynn.github.io/weather-tracker/',
-git: 'https://github.com/monacoglynn/weather-tracker'
+    id: 33451234677,
+    title: 'Weather Dashboard',
+    pic: `${weather}`,
+    desc: 'A weather app that shows 5 day forecast',
+    deploy: 'https://monacoglynn.github.io/weather-tracker/',
+    git: 'https://github.com/monacoglynn/weather-tracker'
 },
 {
+    id: 45432345,
     title: 'Piano Quiz',
     pic: `${piano}`,
     desc: 'A piano theme multiple choice quiz game',
