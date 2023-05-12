@@ -1,6 +1,6 @@
 # React Portfolio
 
-### Live link <https://monacoglynn.github.io/react-portfolio/#home>
+### Live link <https://monacoglynn.github.io/react-portfolio/>
 
 ## Table of content
 - [Description](#description)
