@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.553b3de8.css",
+    "main.css": "/react-portfolio/static/css/main.9b5593a4.css",
     "main.js": "/react-portfolio/static/js/main.a3bc6820.js",
     "static/media/raise.png": "/react-portfolio/static/media/raise.632b7f09e3aefd5f6bfa.png",
     "static/media/weatherdash.jpg": "/react-portfolio/static/media/weatherdash.c91f4b3189a54901b41d.jpg",
@@ -14,11 +14,11 @@
     "static/media/raleway-cyrillic-400-normal.woff2": "/react-portfolio/static/media/raleway-cyrillic-400-normal.f7d0cc4bf9cf8da4f023.woff2",
     "static/media/raleway-vietnamese-400-normal.woff2": "/react-portfolio/static/media/raleway-vietnamese-400-normal.bb6f51e1b67ec8802d57.woff2",
     "index.html": "/react-portfolio/index.html",
-    "main.553b3de8.css.map": "/react-portfolio/static/css/main.553b3de8.css.map",
+    "main.9b5593a4.css.map": "/react-portfolio/static/css/main.9b5593a4.css.map",
     "main.a3bc6820.js.map": "/react-portfolio/static/js/main.a3bc6820.js.map"
   },
   "entrypoints": [
-    "static/css/main.553b3de8.css",
+    "static/css/main.9b5593a4.css",
     "static/js/main.a3bc6820.js"
   ]
 }
