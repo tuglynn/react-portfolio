@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.9b5593a4.css",
-    "main.js": "/react-portfolio/static/js/main.a3bc6820.js",
-    "static/media/raise.png": "/react-portfolio/static/media/raise.632b7f09e3aefd5f6bfa.png",
-    "static/media/weatherdash.jpg": "/react-portfolio/static/media/weatherdash.c91f4b3189a54901b41d.jpg",
-    "static/media/kingdream.jpg": "/react-portfolio/static/media/kingdream.10ea41f06a088f07b5fa.jpg",
-    "static/media/pianoquiz.jpg": "/react-portfolio/static/media/pianoquiz.69ecddc35663a955d016.jpg",
-    "static/media/raleway-all-400-normal.woff": "/react-portfolio/static/media/raleway-all-400-normal.98e7ff86f2b9a46e19cc.woff",
-    "static/media/burauza.jpg": "/react-portfolio/static/media/burauza.abf06a9fb79d54c0f23b.jpg",
-    "static/media/raleway-latin-400-normal.woff2": "/react-portfolio/static/media/raleway-latin-400-normal.0bdecdd83e78d540c297.woff2",
-    "static/media/raleway-latin-ext-400-normal.woff2": "/react-portfolio/static/media/raleway-latin-ext-400-normal.e2c3693083a044bed680.woff2",
-    "static/media/raleway-cyrillic-ext-400-normal.woff2": "/react-portfolio/static/media/raleway-cyrillic-ext-400-normal.afca160d632851197a24.woff2",
-    "static/media/raleway-cyrillic-400-normal.woff2": "/react-portfolio/static/media/raleway-cyrillic-400-normal.f7d0cc4bf9cf8da4f023.woff2",
-    "static/media/raleway-vietnamese-400-normal.woff2": "/react-portfolio/static/media/raleway-vietnamese-400-normal.bb6f51e1b67ec8802d57.woff2",
-    "index.html": "/react-portfolio/index.html",
-    "main.9b5593a4.css.map": "/react-portfolio/static/css/main.9b5593a4.css.map",
-    "main.a3bc6820.js.map": "/react-portfolio/static/js/main.a3bc6820.js.map"
+    "main.css": "/static/css/main.678d7594.css",
+    "main.js": "/static/js/main.a2c45099.js",
+    "static/media/raise.png": "/static/media/raise.632b7f09e3aefd5f6bfa.png",
+    "static/media/weatherdash.jpg": "/static/media/weatherdash.c91f4b3189a54901b41d.jpg",
+    "static/media/kingdream.jpg": "/static/media/kingdream.10ea41f06a088f07b5fa.jpg",
+    "static/media/pianoquiz.jpg": "/static/media/pianoquiz.69ecddc35663a955d016.jpg",
+    "static/media/raleway-all-400-normal.woff": "/static/media/raleway-all-400-normal.98e7ff86f2b9a46e19cc.woff",
+    "static/media/burauza.jpg": "/static/media/burauza.abf06a9fb79d54c0f23b.jpg",
+    "static/media/raleway-latin-400-normal.woff2": "/static/media/raleway-latin-400-normal.0bdecdd83e78d540c297.woff2",
+    "static/media/raleway-latin-ext-400-normal.woff2": "/static/media/raleway-latin-ext-400-normal.e2c3693083a044bed680.woff2",
+    "static/media/raleway-cyrillic-ext-400-normal.woff2": "/static/media/raleway-cyrillic-ext-400-normal.afca160d632851197a24.woff2",
+    "static/media/raleway-cyrillic-400-normal.woff2": "/static/media/raleway-cyrillic-400-normal.f7d0cc4bf9cf8da4f023.woff2",
+    "static/media/raleway-vietnamese-400-normal.woff2": "/static/media/raleway-vietnamese-400-normal.bb6f51e1b67ec8802d57.woff2",
+    "index.html": "/index.html",
+    "main.678d7594.css.map": "/static/css/main.678d7594.css.map",
+    "main.a2c45099.js.map": "/static/js/main.a2c45099.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b5593a4.css",
-    "static/js/main.a3bc6820.js"
+    "static/css/main.678d7594.css",
+    "static/js/main.a2c45099.js"
   ]
 }
