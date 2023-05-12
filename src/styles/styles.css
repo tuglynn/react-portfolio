@@ -110,7 +110,7 @@ article {
     width: auto;
     height: auto;
     border-radius: 20px;
-  },
+  }
 
 .title h2 {
     font-weight: 900;
@@ -290,8 +290,11 @@ footer {
     }
 
     .hero {
-        width: 25rem;
-        height: 15rem;
+        display: none;
+    }
+
+    .contact-form {
+        padding: 2em 1em;
     }
 
     .contain {
