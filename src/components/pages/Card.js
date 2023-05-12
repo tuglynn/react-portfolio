@@ -3,14 +3,6 @@ import styles from '../../styles/styles';
 import '@fontsource/raleway'
 
 const style = {
-    contain: {
-        margin: 'auto',
-        display: 'grid',
-        gridTemplateColumns: 'auto auto auto',
-        padding: '1em',
-        columnGap: '1.5rem',
-        rowGap: '1.5rem'
-    },
     card: {
         padding: '1em',
         backgroundColor: '#D8D4D5',
@@ -24,7 +16,7 @@ const style = {
         margin: '3rem',
 
     },
-    demo: {
+    screenShot: {
         height: '200px',
         width: '270px',
         borderRadius: '20px'
@@ -43,11 +35,11 @@ const style = {
 
 export default function Card(props) {
     return (
-        <div style={style.contain}>
+        <div className="contain">
                 {props.projects.map(item => (
             <div style={style.card} key={item.id}>
                 <h2 style={style.h2}>{item.title}</h2>
-                <img src={item.pic} alt={item.title} style={style.demo}/>
+                <img src={item.pic} alt={item.title} style={style.screenShot}/>
                 <p style={style.blip}>{item.desc}</p>
                 <a href={item.deploy}
                 style={style.links}

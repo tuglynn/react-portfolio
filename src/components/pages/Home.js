@@ -18,7 +18,7 @@ export default function Home() {
         Where I can, bring music to the web, adding a new dimension to the user experience.
         </p>
         </div>
-            <img src={hero} alt='hero' style={styles.hero}/>
+            <img src={hero} alt='hero' className="hero"/>
     </div>
     );
 }

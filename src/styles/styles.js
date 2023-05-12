@@ -27,12 +27,6 @@ const styles = {
     font: {
       fontFamily: 'raleway'
     },
-    hero: {
-      alignContent: 'center',
-      width: 'auto',
-      height: 'auto',
-      borderRadius: '20px'
-    },
     project: {
         height: '200px',
         width: '200px',

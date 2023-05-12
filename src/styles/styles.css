@@ -85,6 +85,15 @@ body {
     margin: 10px 10px 15px 10px;
 }
 
+.contain {
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 1em;
+        column-gap: 1.5rem;
+        row-gap: 1.5rem;
+}
+
 article {
     display: flex;
     margin: 30px 5px;
@@ -96,6 +105,12 @@ article {
     padding-right: 5px;
 }
 
+.hero {
+    align-content: center;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+  },
 
 .title h2 {
     font-weight: 900;
@@ -224,10 +239,17 @@ footer {
         padding-bottom: 10px;
     }
 
+    .hero {
+        width: 35rem;
+        height: 25rem;
+    }
+
+    .contain {
+        grid-template-columns: auto auto;
+    }
     #about,
     #work,
-    #contact,
-    #resume {
+    #contact {
         display: flex;
         flex-direction: columnn;
         flex-wrap: wrap;
@@ -267,6 +289,14 @@ footer {
         flex-direction: column;
     }
 
+    .hero {
+        width: 25rem;
+        height: 15rem;
+    }
+
+    .contain {
+        grid-template-columns: auto;
+    }
     .work {
         flex-basis: auto;
         flex-grow: 1;
