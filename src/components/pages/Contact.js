@@ -1,10 +1,12 @@
 import React from 'react';
 import  '../../styles/styles.css';
-const btn = document.querySelector('#submit');
-
+import EmailForm from '../EmailForm';
+let firstName = document.querySelector('#name');
+let email= document.querySelector('#email');
+let message = document.querySelector('#message');
 
 const handleFormSubmit = () => {
-    console.log(window.form);
+    console.log(firstName.value, email.value, message.value);
 }
 
 
@@ -19,17 +21,9 @@ export default function Contact() {
         <h2>
         Contact Me
     </h2>
-    <a href="mailto:pmtgcode@gmail.com?" subject="Questions about code">Email</a>
     </div>
     <div>
-        <form class="contact-form">
-            <label for="name">Name: </label>
-            <input type="text" id="name"></input>
-            <label for="email">Email: </label>
-            <input type="text" id="email"></input>
-            <textarea></textarea>
-            <button id="submit" onClick={handleFormSubmit}>CLICK ME</button>
-        </form>
+        {EmailForm()}
     </div>
 </div>
     );

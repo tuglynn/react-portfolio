@@ -15,7 +15,8 @@ const style = {
         padding: '1em',
         backgroundColor: '#D8D4D5',
         fontFamily: 'raleway',
-        border: '1px solid #cecece'
+        border: '1px solid #cecece',
+        borderRadius: '20px'
     },
     links: {
         textDecoration: 'none',
@@ -25,7 +26,8 @@ const style = {
     },
     demo: {
         height: '200px',
-        width: '270px'
+        width: '270px',
+        borderRadius: '20px'
     },
     blip: {
         fontSize: '1em',
@@ -51,10 +53,7 @@ export default function Card(props) {
                 style={style.links}
                 target="_blank"
                 rel="noopener noreferrer">deployed</a>
-                    <a href={item.git}
-                    style={style.links}
-                    target="_blank"
-                    rel="noopener noreferrer">repo</a>
+                {item.git && <a href={item.git}style={style.links} target="_blank" rel="noopener noreferrer">repo</a>}
             </div>
                 ))}
         </div>

@@ -30,7 +30,8 @@ const styles = {
     hero: {
       alignContent: 'center',
       width: 'auto',
-      height: 'auto'
+      height: 'auto',
+      borderRadius: '20px'
     },
     project: {
         height: '200px',
@@ -49,6 +50,7 @@ const styles = {
     home: {
       margin: '1rem',
       padding: '1em',
+      borderRadius: '20px',
       backgroundColor: '#cecece',
       display: 'flex',
       flexDirection: 'row',
