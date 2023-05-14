@@ -1,5 +1,4 @@
 import React from 'react';
-import '@fontsource/raleway'
 
 export default function Card(props) {
     return (

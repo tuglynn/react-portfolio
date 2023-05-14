@@ -1,12 +1,10 @@
 import React from 'react';
-import  '../../styles/styles.css';
 import EmailForm from '../EmailForm';
 
 export default function Contact() {
-
     return (
 <div >
-    <div className="address">
+    <div className="contact-header">
         <h2>
         Contact Me
     </h2>

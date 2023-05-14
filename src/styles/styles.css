@@ -56,7 +56,6 @@ nav a {
 
 }
 body {
-    background-color: #cecece;
     font-family: 'Raleway', sans-serif;
 }
 .contain {
@@ -107,12 +106,13 @@ section img {
     width: 270px;
     border-radius: 20px;
 }
-.address {
+.contact-header {
     margin: 1rem;
     padding: 2em;
     display: flex;
     justify-content: space-around;
     background-color: #cecece;
+    border-radius: 20px;
 }
 .resume {
     display:flex;

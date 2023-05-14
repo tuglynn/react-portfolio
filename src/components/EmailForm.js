@@ -23,15 +23,12 @@ const EmailForm = () => {
 
   const validateForm = () => {
     let errors = {};
-
     if (!form.current.user_name.value.trim()) {
       errors.name = 'Name is required';
     }
-
     if (!form.current.user_email.value.trim()) {
       errors.email = 'Email is required';
     }
-
     if (!form.current.message.value.trim()) {
       errors.message = 'Message is required';
     }
