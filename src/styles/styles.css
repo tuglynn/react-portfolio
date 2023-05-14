@@ -5,25 +5,21 @@ header {
     justify-content: space-around;
     background-color: #563635;
 }
-
-/* To allow the header and nav to be spaced out to either end, I used a 50% width on both elements and set the parent to flex.
-Try using flex grow on h1 instead of setting padding. This should make it grow to take up all extra space in the flex row */
-
-h1 {
-    font-size: 190%;
-    font-weight: 900;
+.logo {
     letter-spacing: 2px;
     flex-grow: 2;
     padding-top: 3px;
     padding-left: 7px;
+    margin: 1rem;
+    color: #000022;
+    font-family: 'raleway';
 }
-
 nav {
     display: flex;
     justify-content: space-around;
     width: 100%;
+    background-color: #563635;
 }
-
 nav a {
     text-decoration: none;
     color: #d3bdb8;
@@ -31,60 +27,38 @@ nav a {
     padding-bottom: 5px;
     padding-top: 5px;
 }
-
 .nav-item:hover {
     transition: all .3s ease;
     color: #ffffff;
     position: relative;
     bottom: 1px;
-
 }
-
-.contact-form {
+.home-div {
+        margin: 1rem;
+        padding: 1em;
+        border-radius: 20px;
+        background-color: #cecece;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+}
+.container {
+    margin: 1rem;
+    padding: 1em;
+    background-color: #cecece;
     display: flex;
     flex-direction: column;
-    padding: 2em 10em;
+    align-items: center;
 }
-
-.contact-form input, .contact-form textarea, .contact-form button {
-    margin-top: 1rem;
-}
-
 .select {
     color: #f4f4f4;
 
 }
-
 body {
     background-color: #cecece;
     font-family: 'Raleway', sans-serif;
 }
-
-
-/* To place the h2 in the lower right corner I used both justify content and align items. */
-
-#hero {
-    width: 100%;
-    height: 500px;
-    background-image: url(../images/kingdream.jpg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-
-#hero h2 {
-    font-size: 140%;
-    font-weight: 900;
-    font-style: italic;
-    letter-spacing: 2px;
-    color: var(--white);
-    background-color: var(--grey);
-    padding: 3px;
-    margin: 10px 10px 15px 10px;
-}
-
 .contain {
         margin: auto;
         display: grid;
@@ -93,130 +67,71 @@ body {
         column-gap: 1.5rem;
         row-gap: 1.5rem;
 }
-
-article {
-    display: flex;
-    margin: 30px 5px;
-}
-
-.title {
-    width: 15%;
-    border-right: 2px solid var(--brown);
-    padding-right: 5px;
-}
-
 .hero {
     align-content: center;
-    width: auto;
-    height: auto;
+    width: 33rem;
+    height: 48rem;
     border-radius: 20px;
   }
-
-.title h2 {
-    font-weight: 900;
-    font-size: 140%;
-    letter-spacing: var(--space);
-    margin-left: 40%;
-    color: var(--dark);
-}
-
-section {
-    width: 85%;
-    padding: 2px 15px 2px 6px;
-    margin-left: 3px;
-}
-
-section p {
-    padding: .5rem;
-    text-indent: 1em;
-    line-height: 1.5;
-    letter-spacing: var(--space);
-    color: var(--dark);
-}
-
-/* This is the responsive work section */
-
-
 #workbox {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
-
-/* Set the flex-basis to a low number so that I could have two smaller boxes under the big box. */
-
-section img {
-    height: 200px;
-    margin: 1.5rem;
-    border: 2px solid var(--brown);
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    flex-grow: .5;
-    flex-basis: min(380px);
+.pro-title {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
 }
-
-.work h2 {
-    color: var(--white);
-    background-color: #6A6262;
-    padding: 3px;
-    margin: 10px 10px 15px 10px;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-/* I set this flex-basis to the minimum size of the screen before my media query break so that this large box would stay the full size of the screen until that break */
-
-#workbox .main-project {
-    background-position: center;
-    background-size: cover;
-    flex-grow: 1;
-    flex-basis: min(996px);
-}
-
-h3 {
-    font-weight: 600;
-    font-size: 1.2rem;
-    margin: .5rem;
+.excerpt {
+    font-size: 1rem;
+    width: 100%;
     text-align: center;
 }
-
-h4 {
-    font-weight: 500;
-    font-size: 1.1rem;
-    margin: .5rem;
+.project-card {
+    padding: 1em;
+    background-color: #D8D4D5;
+    font-family: 'raleway';
+    border: 1px solid #cecece;
+    border-radius: 20px;
 }
-
+.project-card a {
+    text-decoration: none;
+    color: #739B92;
+    margin: 3rem;
+}
+section img {
+    margin: 1.5rem;
+    height: 200px;
+    width: 270px;
+    border-radius: 20px;
+}
 .address {
     margin: 1rem;
     padding: 2em;
     display: flex;
     justify-content: space-around;
     background-color: #cecece;
-
 }
-
-
-.address a {
-    margin: 10px;
-    color: var(--green);
-    text-decoration: none;
-    letter-spacing: var(--space);
-}
-
-.address a:hover {
-    transition: all 1s ease;
-    color: #7ca768;
-    position: relative;
-    bottom: 1px;
-}
-
 .resume {
     display:flex;
     align-items: center;
     flex-direction: column;
 }
-
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    padding: 2em 10em;
+}
+.contact-form input, .contact-form textarea, .contact-form button {
+    margin-top: 1rem;
+}
+.btn {
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-family: 'raleway';
+}
 footer {
     font-size: 65%;
     letter-spacing: 2px;
@@ -224,7 +139,22 @@ footer {
     text-align: center;
     padding: 30px;
 }
-
+.footer-text {
+    font-size: 1rem;
+}
+.social-box {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2em;
+  }
+  .hover {
+    cursor: pointer;
+  }
+@media screen and (max-width:1227px) {
+    .contain {
+        grid-template-columns: auto auto;
+    }
+}
 @media screen and (max-width:992px) {
     h1 {
         text-align: center;
@@ -233,28 +163,19 @@ footer {
         padding-top: 5;
         padding-left: 0;
     }
-
     nav {
         width: 100%;
         padding-bottom: 10px;
     }
-
     .hero {
         width: 35rem;
         height: 25rem;
     }
-
-    .contain {
-        grid-template-columns: auto auto;
-    }
-    #about,
-    #work,
-    #contact {
+    #about, #work, #contact {
         display: flex;
         flex-direction: columnn;
         flex-wrap: wrap;
     }
-
     .title {
         width: 100%;
         padding-bottom: 20px;
@@ -263,40 +184,30 @@ footer {
         border-right: 0px;
         border-bottom: 2px solid var(--brown);
     }
-
     section {
         width: 100%;
         margin: 0 25px;
     }
-
-
     .work {
         flex-basis: min(200px);
     }
 }
-
 @media screen and (max-width:768px) {
-
     nav a {
         font-size: 90%;
     }
-
     section p {
         font-size: 95%;
     }
-
     #workbox {
         flex-direction: column;
     }
-
     .hero {
         display: none;
     }
-
     .contact-form {
         padding: 2em 1em;
     }
-
     .contain {
         grid-template-columns: auto;
     }
@@ -304,15 +215,12 @@ footer {
         flex-basis: auto;
         flex-grow: 1;
     }
-
     #workbox .work:nth-of-type(1) {
         flex-basis: auto;
         flex-grow: 1;
     }
-
     .address {
         flex-direction: column;
         align-items: center;
     }
-
 }

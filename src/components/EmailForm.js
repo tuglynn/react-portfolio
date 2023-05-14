@@ -55,7 +55,7 @@ const EmailForm = () => {
       <textarea name="message" />
       {errors.message && <span>{errors.message}</span>}
 
-      <input type="submit" value="Send" />
+      <input className="btn" type="submit" value="Send" />
     </form>
   );
 };

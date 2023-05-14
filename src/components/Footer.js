@@ -1,13 +1,6 @@
-// import ReactDOM from 'react-dom';
 import react from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
-import styles from '../styles/styles';
-
-
-
-
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
     const linkedIn = (e) => {
@@ -24,20 +17,20 @@ function Footer() {
     };
 return (
     <footer>
-        <div style={styles.icons}>
+        <div className="social-box">
 <FontAwesomeIcon
 icon={faLinkedin}
-style={styles.hover}
+className="hover"
 size='6x'
 onClick={linkedIn}/>
 <FontAwesomeIcon
 icon={faGithub}
 size='6x'
-style={styles.hover}
+className="hover"
 onClick={github}/>
         </div>
 
-        <h3 style={styles.h3}>PMTG 2022</h3>
+        <h3 className="footer-text">PMTG 2022</h3>
     </footer>
 )
 }

@@ -1,20 +1,16 @@
 import React from 'react';
-import styles from '../../styles/styles';
-import hero from '../../images/kingdream.jpg';
-
+import hero from '../../images/github.jpeg';
 
 export default function Home() {
     return (
-        <div className="active animate-in-left"
-        style={styles.home}>
-            <div
-            style={styles.container}>
-        <p style={styles.font}>I am a junior web developer with a background in music.
+        <div className="home-div">
+            <div className="container">
+        <p>I am a junior web developer with a background in music.
         </p>
-        <p style={styles.font}>
+        <p>
             I love everything with knobs and buttons, I.E. synthesizers and computers.
         </p>
-        <p style={styles.font}>
+        <p>
         Where I can, bring music to the web, adding a new dimension to the user experience.
         </p>
         </div>

@@ -1,15 +1,12 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import styles from '../styles/styles';
-
-
 
 function NavTabs({ currentPage, handlePageChange }) {
 
   return (
     <header>
-          <h1 style={styles.h1Text}>Patrick TuGlynn</h1>
-          <nav style={styles.header}>
+          <h1 className="logo">Patrick TuGlynn</h1>
+          <nav>
             <Link
               to="/"
               onClick={() => handlePageChange('Home')}
