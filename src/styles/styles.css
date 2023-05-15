@@ -114,11 +114,6 @@ section img {
     background-color: #cecece;
     border-radius: 20px;
 }
-.resume {
-    display:flex;
-    align-items: center;
-    flex-direction: column;
-}
 .contact-form {
     display: flex;
     flex-direction: column;
@@ -222,5 +217,13 @@ footer {
     .address {
         flex-direction: column;
         align-items: center;
+    }
+    .project-card {
+        width: 300px;
+    }
+    section img {
+        margin: 1rem 1rem 1rem .5rem;
+        height: 150px;
+        width: 250px;
     }
 }
