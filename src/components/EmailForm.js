@@ -55,7 +55,7 @@ const EmailForm = () => {
       {errors.message && <span>{errors.message}</span>}
 
       <input className="btn" type="submit" value="Send" />
-      {submitted && <span>Form submitted successfully!</span>}
+      {submitted && <span>Message Sent!</span>}
     </form>
   );
 };

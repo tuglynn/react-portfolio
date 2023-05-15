@@ -8,21 +8,21 @@ function NavTabs({ currentPage, handlePageChange }) {
           <h1 className="logo">Patrick TuGlynn</h1>
           <nav>
             <Link
-              to="/"
+              to="/react-portfolio/"
               onClick={() => handlePageChange('Home')}
               className={currentPage === 'Home' ? 'nav-item select' : 'nav-item'}
             >
               Home
             </Link>
             <Link
-              to="/projects"
+              to="/react-portfolio/projects"
               onClick={() => handlePageChange('Projects')}
               className={currentPage === 'Projects' ? 'nav-item select' : 'nav-item'}
             >
               Projects
             </Link>
             <Link
-              to="/contact"
+              to="/react-portfolio/contact"
               onClick={() => handlePageChange('Contact')}
               className={currentPage === 'Contact' ? 'nav-item select' : 'nav-item'}
             >
